@@ -1,0 +1,12 @@
+{application, gserver,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { gserver_app, []}},
+  {env, []}
+ ]}.
